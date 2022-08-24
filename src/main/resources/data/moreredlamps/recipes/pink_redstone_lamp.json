@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "JJJ",
+    "JDJ",
+    "JJJ"
+  ],
+  "key": {
+    "J": {
+      "item": "minecraft:redstone_lamp"
+    },
+    "D": {
+      "item": "minecraft:pink_dye"
+    }
+  },
+  "result": {
+    "item": "moreredlamps:pink_redstone_lamp",
+    "count": 8
+  }
+}

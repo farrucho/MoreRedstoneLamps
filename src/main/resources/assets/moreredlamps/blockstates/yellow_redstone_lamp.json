@@ -1,0 +1,6 @@
+{
+  "variants": {
+    "lit=true": { "model":  "moreredlamps:block/yellow_redstone_lamp_on" },
+    "lit=false": { "model":  "moreredlamps:block/yellow_redstone_lamp_off" }
+  }
+}

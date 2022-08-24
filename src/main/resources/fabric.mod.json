@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "id": "moreredlamps",
+  "version": "${version}",
+
+  "name": "More Redstone Lamps Mod",
+  "description": "This mod adds More Redstone Lamps so you can decorate your world with more color.",
+  "authors": [
+    "farrucho"
+  ],
+  "contact": {
+    "homepage": "https://www.curseforge.com/minecraft/mc-mods/more-redstone-lamps"
+  },
+
+  "license": "MIT License",
+  "icon": "assets/moreredlamps/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.farrucho.moreredlamps.MoreRedLamps"
+    ]
+  },
+  "client": [
+    "net.farrucho.moreredlamps.MoreRedLampsClient"
+  ],
+  "mixins": [
+    "moreredlamps.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.14.6",
+    "fabric": "*",
+    "minecraft": "~1.19",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
