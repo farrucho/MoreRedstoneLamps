@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "moreredlamps:red_redstone_lamp",
+    "moreredlamps:yellow_redstone_lamp",
+    "moreredlamps:blue_redstone_lamp",
+    "moreredlamps:black_redstone_lamp",
+    "moreredlamps:white_redstone_lamp",
+    "moreredlamps:green_redstone_lamp",
+    "moreredlamps:orange_redstone_lamp",
+    "moreredlamps:purple_redstone_lamp",
+    "moreredlamps:pink_redstone_lamp"
+  ]
+}
